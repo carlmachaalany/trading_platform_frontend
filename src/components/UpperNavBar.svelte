@@ -29,3 +29,6 @@ AND ADD A SLOT TO IT. -->
         line-height: 80px; /* height of the upper navbar */
     }  
 </style>
+
+// move search-alert-edit to the right 
+// get svg logo from Noah
