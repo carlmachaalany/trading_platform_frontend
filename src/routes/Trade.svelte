@@ -1,8 +1,5 @@
 <script>
     import BottomNavBar from '../components/BottomNavBar.svelte';
-    import DashBoard from './DashBoard.svelte';
-    import WatchList from './WatchList.svelte';
-    import Body from '../components/Body.svelte';
     import UpperNavBar from '../components/UpperNavBar.svelte';
     import Navlist from '../components/Navlist.svelte';
 </script>
@@ -57,7 +54,6 @@
         height: 375px;
         left: 10px;
         top: 120px;
-
         background: #C1E4EC;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
