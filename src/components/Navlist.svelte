@@ -14,7 +14,7 @@
 <div class="navlist overflow-auto bg-white">
    
     {#each navItems as item}
-        <a href="#" class="border-b-2 border-transparent hover:text-blue-300 mx-1.5 sm:mx-6">{item.label}</a>
+        <a href="#" class="border-b-2 border-transparent mx-1.5 sm:mx-6">{item.label}</a>
     {/each}
 
 </div>
@@ -32,6 +32,10 @@
 
     .navlist::-webkit-scrollbar {
        display: none;
+   }
+
+   .navlist a:hover {
+        color: #23C3E5;
    }
 
 </style>
