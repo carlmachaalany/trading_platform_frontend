@@ -102,7 +102,7 @@
 
     .wrapper {
         position: relative;
-        width: calc(100vw - 15px);
+        width: 100%;
         top: 23px;
         max-height: calc(100vh - 170px);
         background-color: #C0E4EC;
